@@ -303,7 +303,7 @@
         var $countDownWrapper = $('.apperle-count-down-wrapper');
 
         //Set the dead line and time zone for your app
-        var deadline = 'November 02 2023 12:00:18 GMT+0530(IST)';
+        var deadline = 'October 18 2025 12:00:18 GMT+0530(IST)';
 
         function time_remaining(endtime){
             var t = Date.parse(endtime) - Date.parse(new Date());
