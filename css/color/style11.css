@@ -1,0 +1,9 @@
+.gradient-color {
+    background: #ceac7a; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ceac7a, #ef629f); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ceac7a, #ef629f); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ceac7a, #ef629f); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.reflection-text:not(.reflection-text-white)::after {
+    background: url(../../images/line-break/line-break-11.svg) no-repeat;
+}

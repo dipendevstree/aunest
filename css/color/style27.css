@@ -1,0 +1,33 @@
+.gradient-color {
+    background: linear-gradient(135deg, #021a17, #031a18, #052f2c, #0a4a42, #0c584e, #0e6c59, #0f6b60, #108170, #169884, #19b19b, #15d193, #1ae5be,  #21ffbb, #19ffab, #17ffb2);
+    background-size: 1800% 1800%;
+    animation: rainbow 10s ease infinite;
+    -moz-animation: rainbow 10s ease infinite;
+    -o-animation: rainbow 10s ease infinite;
+    -webkit-animation: rainbow 10s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0 82%}
+}
+
+.reflection-text:not(.reflection-text-white)::after {
+    background: url(../../images/line-break/line-break-22.svg) no-repeat;
+}
